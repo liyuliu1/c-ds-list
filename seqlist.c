@@ -4,3 +4,6 @@ typedef struct {
     int length;
     int data[MAXSIZE];
 }SeqList;
+void InitList(SeqList *L){
+    L->length=0;
+}
